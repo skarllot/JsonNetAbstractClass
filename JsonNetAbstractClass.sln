@@ -5,9 +5,37 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JsonNetAbstractClass", "JsonNetAbstractClass\JsonNetAbstractClass.shproj", "{7FBCB599-00EA-41C2-9AA9-6A825E429928}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableJsonNetAbstractClass", "PortableJsonNetAbstractClass\PortableJsonNetAbstractClass.csproj", "{65CA7495-B8C8-4C8D-BE4A-36F733DA99E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopJsonNetAbstractClass", "DesktopJsonNetAbstractClass\DesktopJsonNetAbstractClass.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroidJsonNetAbstractClass", "DroidJsonNetAbstractClass\DroidJsonNetAbstractClass.csproj", "{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		JsonNetAbstractClass\JsonNetAbstractClass.projitems*{65ca7495-b8c8-4c8d-be4a-36f733da99e2}*SharedItemsImports = 4
 		JsonNetAbstractClass\JsonNetAbstractClass.projitems*{7fbcb599-00ea-41c2-9aa9-6a825e429928}*SharedItemsImports = 13
+		JsonNetAbstractClass\JsonNetAbstractClass.projitems*{8edf4429-251a-416d-bb68-93f227191bcf}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65CA7495-B8C8-4C8D-BE4A-36F733DA99E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CA7495-B8C8-4C8D-BE4A-36F733DA99E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CA7495-B8C8-4C8D-BE4A-36F733DA99E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CA7495-B8C8-4C8D-BE4A-36F733DA99E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

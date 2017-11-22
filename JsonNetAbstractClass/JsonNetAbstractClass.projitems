@@ -9,5 +9,9 @@
     <Import_RootNamespace>JsonNetAbstractClass</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BaseClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollectionFixture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Termination.cs" />
   </ItemGroup>
 </Project>
