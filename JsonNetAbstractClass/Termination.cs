@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace JsonNetAbstractClass
 {
     [Serializable]
-    public class Termination : BaseClass, IEquatable<Termination>
+    public class Termination : BaseClass
     {
         public int Value { get; set; }
 
@@ -31,27 +31,6 @@ namespace JsonNetAbstractClass
                         break;
                 }
             }
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (obj == null)
-                return false;
-
-            return Equals(obj as Termination);
-        }
-
-        public bool Equals(Termination other)
-        {
-            if (other == null)
-                return false;
-
-            return Value == other.Value;
-        }
-
-        public override int GetHashCode()
-        {
-            return Value;
         }
 
         protected override void InternalGetObjectData(SerializationInfo info, StreamingContext context)
